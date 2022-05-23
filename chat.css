@@ -1,0 +1,77 @@
+:root {
+  --font-color: #545454;
+  --user-name: 26px;
+  --user-time: 20px;
+  --line-color: #acacac;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  color: var(--font-color);
+}
+
+.container {
+  width: 720px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  border-right: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+  border-bottom: 1px solid #acacac;
+  overflow: hidden;
+}
+
+.ex {
+  margin: 20px 32px 43px;
+}
+
+.chatGroup {
+  display: flex;
+  margin: 0 32px 18px;
+  height: 109px;
+}
+
+.user {
+  margin-right: 20px;
+}
+
+.user-img {
+  width: 92px;
+  height: 92px;
+}
+
+.user-info {
+  width: 546px;
+  height: 109px;
+  border-bottom: 1px solid #acacac;
+}
+
+.name-time {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+.name {
+  font-size: var(--user-name);
+}
+
+.time {
+  font-size: var(--user-time);
+}
+
+.comment {
+  font-size: var(--user-time);
+  margin-top: 5px;
+}
+
+.chatGroup-last {
+  display: flex;
+  margin: 0 32px 119px;
+  height: 109px;
+}

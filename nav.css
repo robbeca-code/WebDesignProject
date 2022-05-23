@@ -1,3 +1,7 @@
+:root {
+  --selected-color: #ea5936;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -24,9 +28,22 @@ a {
   font-size: 36px;
 }
 
+.back-title {
+  display: block;
+  width: 500px;
+  margin-top: -8px;
+  margin-left: 64px;
+  font-size: 36px;
+}
+
 .menu {
   width: 48px;
   height: 44px;
+}
+
+.back {
+  width: 20px;
+  height: 36px;
 }
 
 .search {
@@ -118,4 +135,8 @@ a {
 .mypage-title {
   margin-top: 21px;
   margin-right: -8px;
+}
+
+.selected {
+  color: var(--selected-color);
 }
