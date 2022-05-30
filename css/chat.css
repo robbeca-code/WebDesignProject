@@ -23,8 +23,8 @@ span {
   width: 720px;
   height: auto;
   margin: 0 auto;
-  border-right: 1px solid #aaa;
-  border-left: 1px solid #aaa;
+  border-right: 1px solid #acacac;
+  border-left: 1px solid #acacac;
   border-bottom: 1px solid #acacac;
   overflow: hidden;
 }
