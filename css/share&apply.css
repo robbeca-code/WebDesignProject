@@ -1,0 +1,183 @@
+:root {
+  --font-color: #545454;
+  --font-30px: 30px;
+  --font-26px: 26px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  color: var(--font-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 720px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  border-right: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+  border-bottom: 1px solid #acacac;
+  overflow: hidden;
+}
+
+.location-ctrl {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 32px;
+}
+
+.location-text span {
+  font-size: var(--font-30px);
+}
+
+.location-icon img {
+  width: 45px;
+  height: 45px;
+}
+
+.share {
+  background-color: #fbf9f9;
+  padding: 20px 60px;
+  margin-bottom: 16px;
+  height: 260px;
+}
+
+.share-text {
+  text-align: center;
+}
+
+.share-text span {
+  font-size: var(--font-30px);
+}
+
+.share-type {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.share-type-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.share-type-content.one {
+  margin-left: 18px;
+}
+
+.share-type-text {
+  margin-top: 27px;
+  font-size: var(--font-26px);
+}
+
+.food-item {
+  width: 101px;
+  height: 90px;
+}
+
+.food-tool {
+  width: 86px;
+  height: 86px;
+  margin-left: 18px;
+}
+
+.food-book {
+  width: 109px;
+  height: 84px;
+}
+
+.apply {
+  background-color: #fbf9f9;
+  padding: 20px 60px;
+  height: 260px;
+  margin-bottom: 40px;
+}
+
+.apply-text {
+  text-align: center;
+}
+
+.apply-text span {
+  font-size: var(--font-30px);
+}
+
+.apply-type {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.apply-type-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.apply-type-content.one {
+  margin-left: 25px;
+}
+
+.apply-type-content.two {
+  margin-left: 30px;
+}
+
+.apply-type-text {
+  margin-top: 27px;
+  font-size: var(--font-26px);
+}
+
+.food-one {
+  width: 59px;
+  height: 90px;
+}
+
+.apply-dessert {
+  width: 66px;
+  height: 91px;
+}
+
+.many-food {
+  margin-top: 5px;
+  width: 101px;
+  height: 84px;
+}
+
+.user-recommend {
+  padding: 0 32px 40px;
+}
+
+.user-recommend-title {
+  font-size: var(--font-30px);
+}
+
+.user-comment {
+  display: flex;
+  margin-top: 22px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 42px;
+}
+
+.user img {
+  width: 120px;
+  height: 120px;
+}
+
+.user-name {
+  margin-top: 7px;
+  font-size: 24px;
+}
