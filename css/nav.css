@@ -51,6 +51,23 @@ a {
   height: 45px;
 }
 
+.logo {
+  width: 564px;
+}
+.logo-icon {
+  margin-top: -13px;
+  margin-left: 175px;
+  height: 80px;
+}
+
+span.finish {
+  width: 60px;
+  font-size: 30px;
+  color: #acacac;
+  margin-left: 0;
+  margin-top: 1px;
+}
+
 /* Bottom Toolbar */
 .bottom-toolbar {
   display: flex;
@@ -98,7 +115,7 @@ a {
 }
 
 .recipe-icon-title.selected {
-  margin-top: 21px;
+  margin-top: 17px;
 }
 
 .egg-img {
@@ -124,7 +141,7 @@ a {
 }
 
 .chat-title.selected {
-  margin-top: 21px;
+  margin-top: 18px;
 }
 
 .mypage {
